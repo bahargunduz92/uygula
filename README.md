@@ -1,0 +1,2 @@
+# uygula
+int main() { int i; int ogr[5] = {0}; int top[6] = {0}; int secenek;      for(i = 0; i &lt; 5; i++)     {                            printf("%d. ogrenci hangi topu sececeksin? ",i + 1);                 scanf("%d",&amp;secenek);                                  while(secenek &lt;= 0 || secenek > 5){                 printf("1-5 arasinda bir sayi gir ");                 scanf("%d",&amp;secenek);                 }                                  if(top[secenek] != 0)
